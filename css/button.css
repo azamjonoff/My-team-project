@@ -5,7 +5,7 @@
   padding-bottom: 1.1rem;
   padding-left: 3.2rem;
   border: 2px solid var(--white-color);
-  background-color: var(--012-green);
+  background-color: var(--dark-green-color);
   color: var(--white-color);
   border-radius: 2.4rem;
   font-weight: 600;
@@ -19,7 +19,7 @@
 
   &:active {
     border-color: var(--darkk-green);
-    background-color: var(--012-green);
+    background-color: var(--dark-green-color);
     color: var(--darkk-green);
   }
 }

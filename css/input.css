@@ -1,11 +1,4 @@
 /* TEXT AREA START */
-
-.header {
-  width: 296px;
-  height: 417px;
-  background-color: var(--012-green);
-  padding: 24px;
-}
 .input-form {
   display: flex;
   flex-direction: column;
