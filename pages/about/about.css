@@ -1,0 +1,46 @@
+.header__about_pink {
+  background-color: var(--pink-color);
+  width: 50px;
+  height: 4px;
+}
+.header__info_about {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  margin-top: 5rem;
+}
+.header__description_about {
+  width: 730px;
+  font-weight: 600;
+  font-size: 1.8rem;
+  line-height: 1.55em;
+  color: var(--white-color);
+}
+.header__title_about {
+  width: 350px;
+  font-weight: 700;
+  font-size: 6.4rem;
+  line-height: 1.56em;
+  color: var(--white-color);
+}
+.header__section_about {
+  /* display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 6.2rem;
+  margin-bottom: 5.3rem;
+  gap: 30px; */
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 12rem;
+}
+.header_about {
+  margin-bottom: 7rem;
+}
+.header-section_about {
+  background-color: var(--dark-green-color);
+  padding-top: 7.3rem;
+  background-image: url("../../images/bg-pattern-about-1-mobile-nav-1.svg");
+  background-repeat: no-repeat;
+  background-position: bottom right -100px;
+}
