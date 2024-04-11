@@ -115,8 +115,8 @@
   text-align: center;
   color: var(--white-color);
 }
-.comment__authors {
-}
+/* .comment__authors {
+} */
 .comment__authors_name {
   font-weight: 700;
   font-size: 1.8rem;
