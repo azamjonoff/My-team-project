@@ -50,7 +50,7 @@
   flex-direction: column;
   gap: 2.5rem;
 }
-.site-logo {
+/* .site-logo {
 }
 .sitenav {
 }
@@ -61,7 +61,7 @@
 .sitenav__link {
 }
 .sitenav_item {
-}
+} */
 .footer__addres {
   color: var(--white-color);
   font-weight: 600;
@@ -79,12 +79,12 @@
   justify-content: end;
   gap: 1.6rem;
 }
-.socials__item {
+/* .socials__item {
 }
 .socials__link {
 }
 .socials__img {
-}
+} */
 .socials__text {
   font-weight: 600;
   font-size: 1.5rem;
