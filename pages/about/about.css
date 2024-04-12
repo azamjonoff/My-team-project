@@ -50,7 +50,104 @@
 
 /* SECTION DIRECTORS START*/
 
+.directors {
+  background-color: var(--darkk-green);
+  padding-top: 14rem;
+  padding-bottom: 14rem;
+  background-image: url("../../images/bg-pattern-about-2-contact-1.svg"),
+    url("../../images/bg-pattern-home-4-about-3.svg");
+  background-repeat: no-repeat;
+  background-position: top left -100px, bottom right;
+}
+.directors__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6.4rem;
+}
+.directors__wrapper_title {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1em;
+  text-align: center;
+  color: var(--white-color);
+}
+.directors__list {
+  display: grid;
+  grid-template-columns: 350px 350px 350px;
+  grid-template-rows: 281px 281px;
+  grid-row-gap: 7.5rem;
+  grid-column-gap: 3rem;
+}
+.directors__item {
+  background-color: var(--012-green);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3.2rem;
+  padding-right: 2.4rem;
+  padding-left: 2.4rem;
+  padding-bottom: 3.2rem;
+  position: relative;
+}
+.directors__info_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.6rem;
+}
+.directors__avatar {
+  border-radius: 50%;
+  border: 2px solid #c4fffe;
+}
+.directors__names_wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.directors__name {
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 1.55em;
+  text-align: center;
+  color: var(--light-green);
+}
+.directors__job {
+  font-weight: 500;
+  font-style: italic;
+  font-size: 1.5rem;
+  line-height: 1.66em;
+  text-align: center;
+  color: var(--white-color);
+}
+.directors__img_plus {
+  background-color: var(--pink-color);
+  padding: 3rem;
+  border-radius: 50%;
+}
+.directors__link {
+  position: absolute;
+  top: 240px;
 
+  &:hover .directors__img_plus {
+    background-color: var(--light-green);
+  }
+}
+
+.directors__aden_text {
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 1.66em;
+  text-align: center;
+  color: var(--white-color);
+  width: 254px;
+  margin-top: 0.8rem;
+  margin-bottom: 2.4rem;
+}
+.directors__socials {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.6rem;
+}
 
 /* SECTION DIRECTORS END */
 
