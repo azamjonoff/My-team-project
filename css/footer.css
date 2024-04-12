@@ -24,7 +24,7 @@
   background-color: var(--pink-color);
 
   &:hover {
-    color: var(--pink-color);
+    color: var(--white-color);
   }
 }
 
@@ -80,10 +80,15 @@
   gap: 1.6rem;
 }
 /* .socials__item {
+  color: var(--pink-color);
 }
 .socials__link {
+  color: var(--pink-color);
 }
 .socials__img {
+  &:hover {
+    color: var(--pink-color);
+  }
 } */
 .socials__text {
   font-weight: 600;
