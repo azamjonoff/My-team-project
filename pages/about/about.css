@@ -151,4 +151,38 @@
 
 /* SECTION DIRECTORS END */
 
+/* SECTION CUSTOMER START */
+
+.customer {
+  background-color: var(--012-green);
+  padding: 14rem 0;
+  background-image: url("../../images/bg-pattern-about-4.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+}
+.customer__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6.4rem;
+}
+.customer__title {
+  font-weight: 700;
+  font-size: 4.8rem;
+  line-height: 1em;
+  text-align: center;
+  color: var(--white-color);
+}
+.customer__list {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+/* .customer__item {
+}
+.customer__img {
+} */
+
+/* SECTION CUSTOMER END */
+
 /* MAIN STYLES END */
