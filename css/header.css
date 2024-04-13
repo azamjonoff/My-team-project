@@ -92,3 +92,40 @@
   margin-left: 752px;
 }
 /* HEADER SECTION END */
+
+@media (max-width: 770px) {
+  .header-section {
+    background-image: url("../images/bg-pattern-home-2.svg");
+    background-repeat: no-repeat;
+    background-position: bottom center;
+  }
+
+  .header__section {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 3rem;
+    padding-bottom: 8rem;
+  }
+
+  .header__green {
+    display: none;
+  }
+
+  .header__info {
+    gap: 0;
+    display: inline-block;
+  }
+
+  .header__description {
+    width: 457px;
+    margin-top: -25px;
+    text-align: center;
+  }
+
+  .header__title {
+    text-align: center;
+    line-height: 1em;
+  }
+}
