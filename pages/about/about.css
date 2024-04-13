@@ -186,3 +186,104 @@
 /* SECTION CUSTOMER END */
 
 /* MAIN STYLES END */
+
+/* RESPONSIVE TABLET START */
+
+@media (max-width: 768px) {
+  .header_about {
+    margin-bottom: 0;
+  }
+
+  .header__section_about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-bottom: 11.2rem;
+    padding-top: 6rem;
+    gap: 0;
+  }
+
+  .header__title_about {
+    font-size: 6.4rem;
+    line-height: 0.875em;
+    text-align: center;
+  }
+  .header__description_about {
+    margin-top: -60px;
+    width: 457px;
+    font-size: 1.5rem;
+    line-height: 1.86em;
+    text-align: center;
+  }
+
+  .header__about_pink {
+    display: none;
+  }
+
+  .directors__wrapper_title {
+    font-size: 3.2rem;
+    line-height: 1em;
+    text-align: center;
+  }
+
+  .directors__list {
+    display: grid;
+    grid-template-columns: 251px 251px;
+    grid-template-rows:
+      253px
+      253px
+      253px;
+    grid-row-gap: 7.5rem;
+    grid-column-gap: 1.1rem;
+    justify-content: center;
+  }
+  .directors__img_plus {
+    background-color: var(--pink-color);
+    padding: 2rem;
+    border-radius: 50%;
+  }
+  .directors__link {
+    position: absolute;
+    top: 222px;
+
+    &:hover .directors__img_plus {
+      background-color: var(--light-green);
+    }
+  }
+  .directors {
+    padding-top: 10rem;
+    padding-bottom: 12.8rem;
+  }
+
+  .customer__title {
+    font-size: 3.2rem;
+    line-height: 1em;
+    text-align: center;
+  }
+  .customer__list {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+  }
+  .customer__img {
+    width: 103px;
+    height: 17px;
+  }
+  /* .customer__img:nth-child(2) {
+    width: 114px;
+    height: 14px;
+  }
+  .customer__img:nth-child(3) {
+    width: 112px;
+    height: 17px;
+  }
+  .customer__img:nth-child(4) {
+    width: 103px;
+    height: 17px;
+  }
+  .customer__img:nth-child(5) {
+    width: 61px;
+    height: 28px;
+  } */
+}

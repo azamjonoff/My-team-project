@@ -131,41 +131,4 @@
   /* FOOTER END */
 
   /* HOME PAGE END */
-
-  /* ABOUT PAGE START */
-
-  /* HEADER START */
-
-  .header_about {
-    margin-bottom: 0;
-  }
-
-  .header__section_about {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 11.2rem 0;
-    gap: 0;
-  }
-
-  .header__title_about {
-    font-size: 6.4rem;
-    line-height: 0.875em;
-    text-align: center;
-  }
-  .header__description_about {
-    width: 457px;
-    font-size: 1.5rem;
-    line-height: 1.86em;
-    text-align: center;
-  }
-
-  .header__about_pink {
-    display: none;
-  }
-
-  /* HEADER END */
-
-  /* ABOUT PAGE END */
 }
