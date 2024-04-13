@@ -48,6 +48,12 @@
     opacity: 0.6;
   }
 }
+
+.header__btn_hamburger {
+  background-color: transparent;
+  border: 0;
+  display: none;
+}
 /* .header__btn {
 }
 .primary-btn {
@@ -92,5 +98,3 @@
   margin-left: 752px;
 }
 /* HEADER SECTION END */
-
-

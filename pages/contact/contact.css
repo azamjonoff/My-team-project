@@ -95,7 +95,7 @@ button {
     opacity: 0.6;
   }
 }
-/* RESPONSIVE START */
+/* RESPONSIVE TABLET START */
 
 @media (max-width: 770px) {
   .header__contact_section {
@@ -125,4 +125,4 @@ button {
   }
 }
 
-/* RESPONSIVE END */
+/* RESPONSIVE TABLET END */
