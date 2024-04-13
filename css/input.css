@@ -6,10 +6,12 @@
 .input-field {
   border: none;
   border-bottom: 0.1rem solid var(--white-color);
-  background-color: var(--012-green);
+  background-color: transparent;
   width: 248px;
   height: 42px;
   padding-left: 1.4rem;
+  padding-bottom: 1.7rem;
+  padding-right: 8.1rem;
   font-weight: 600;
   font-size: 1.5rem;
   line-height: 1.66em;
