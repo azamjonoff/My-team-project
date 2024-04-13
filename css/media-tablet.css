@@ -54,7 +54,7 @@
 
   .type__text_pink {
     position: absolute;
-    top: 920px;
+    top: 840px;
   }
 
   .type__text_title {
@@ -105,7 +105,7 @@
 
   .footer__div {
     display: flex;
-    flex-direction: column;
+    flex-direction: column; 
     gap: 3.2rem;
   }
 
