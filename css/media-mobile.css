@@ -132,4 +132,33 @@
     align-items: center;
     gap: 1.6rem;
   }
+  /* HAMBURGER */
+  /* 
+  nav ul {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+  }
+  
+  nav ul.show {
+    display: flex;
+  }
+  
+  .header__btn_hamburger {
+    display: block;
+  }
+    nav {
+        background-color: rgb(62, 109, 149);
+    }
+} */
+  nav ul.show {
+    display: flex;
+  }
+
+  .header__btn_hamburger {
+    display: block;
+  }
+  nav {
+    background-color: rgb(62, 109, 149);
+  }
 }

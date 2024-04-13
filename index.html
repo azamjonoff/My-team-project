@@ -37,14 +37,22 @@
                 </ul>
               </nav>
             </div>
-            <a
-              class="header__btn primary-btn"
-              href="./pages/contact/contact.html"
-              >contact us</a
-            >
 
             <!-- TOOGLE NAVBAR -->
-            <button class="header__btn_hamburger">
+            <nav class="ham__nav">
+              <ul id="mynav">
+                <li><a href="#">home.</a></li>
+                <li><a href="#">about.</a></li>
+                <li>
+                  <a
+                    class="header__btn primary-btn"
+                    href="./pages/contact/contact.html"
+                    >contact us</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <button class="header__btn_hamburger" id="header__btn_hamburger">
               <img
                 src="./images/icon-hamburger.svg"
                 alt=""
@@ -52,6 +60,23 @@
                 height="17"
               />
             </button>
+            <!-- <nav class="sitenav">
+              <ul id="mynav" class="sitenav__list">
+                <li class="sitenav__item">
+                  <a class="sitenav__link" href="./index.html">home</a>
+                </li>
+                <li class="sitenav_item">
+                  <a class="sitenav__link" href="./pages/about/about.html"
+                    >about</a
+                  >
+                </li>
+              </ul>
+            </nav>
+            <a
+              class="header__btn primary-btn"
+              href="./pages/contact/contact.html"
+              >contact us</a
+            > -->
           </div>
         </header>
         <section class="header__section">
@@ -293,5 +318,13 @@
       </footer>
     </div>
     <!-- FOOTER END -->
+    <script>
+      const button = document.getElementById("my-button");
+      const nav = document.getElementById("mynav");
+
+      button.addEventListener("click", () => {
+        nav.classList.toggle("show");
+      });
+    </script>
   </body>
 </html>
