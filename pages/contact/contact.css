@@ -126,3 +126,55 @@ button {
 }
 
 /* RESPONSIVE TABLET END */
+
+/* RESPONSIVE MOBILE START */
+
+@media (max-width: 475px) {
+  .contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .header__contact_section {
+    padding-top: 8rem;
+  }
+
+  .header-section_contact {
+    background-image: url("../../images/bg-pattern-contact-2.svg");
+    background-repeat: no-repeat;
+    background-position: bottom -100px right -100px;
+    padding-bottom: 8.8rem;
+  }
+
+  .contact__about_img_text {
+    width: 232px;
+  }
+
+  .contact__about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__about_list {
+    gap: 2.4rem;
+  }
+
+  .contact__input {
+    width: 325px;
+    height: 42px;
+  }
+
+  .contact__input5 {
+    width: 325px;
+  }
+
+  .contact_sign_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* RESPONSIVE MOBILE END */
