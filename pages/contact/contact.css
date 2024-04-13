@@ -33,7 +33,7 @@
 .contact__about_title {
   font-weight: 700;
   font-size: 3.2rem;
-  line-height: 4.8rem;
+  line-height: 1.5em;
   color: var(--pink-color);
 }
 /* .contact__about_list {
@@ -95,3 +95,34 @@ button {
     opacity: 0.6;
   }
 }
+/* RESPONSIVE START */
+
+@media (max-width: 770px) {
+  .header__contact_section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 5.4rem;
+  }
+
+  .contact__about_list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+
+  .contact__text_title {
+    text-align: center;
+  }
+
+  .contact__about_title {
+    text-align: center;
+  }
+}
+
+/* RESPONSIVE END */
